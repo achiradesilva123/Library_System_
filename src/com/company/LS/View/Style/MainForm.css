@@ -1,0 +1,7 @@
+.setup-button{
+    -fx-background-color: #212121;
+    -fx-text-fill: white;
+}
+.setup-button:hover{
+    -fx-background-color: #263238;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="448.0" prefWidth="136.0" stylesheets="@../Style/CommonStyles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.LS.Controller.ToolbarController">
+   <children>
+      <JFXButton fx:id="btAddmember" contentDisplay="TOP" mnemonicParsing="false" onAction="#LoadAddmember" prefHeight="150.0" prefWidth="136.0" text="Add Member">
+         <graphic>
+            <FontAwesomeIconView glyphName="USER" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btAddBook" contentDisplay="TOP" mnemonicParsing="false" onAction="#LoadAddBokk" prefHeight="150.0" prefWidth="136.0" text="Add Book">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btView" contentDisplay="TOP" mnemonicParsing="false" onAction="#ViewmemberLis" prefHeight="150.0" prefWidth="136.0" text="Member List">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btViewBook" contentDisplay="TOP" mnemonicParsing="false" onAction="#ViewBookList" prefHeight="150.0" prefWidth="136.0" text="Book List">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btSetting" contentDisplay="TOP" mnemonicParsing="false" onAction="#LoadSetting" prefHeight="150.0" prefWidth="136.0" text="Setting">
+         <graphic>
+            <FontAwesomeIconView glyphName="COG" size="25" />
+         </graphic>
+      </JFXButton>
+   </children>
+</VBox>

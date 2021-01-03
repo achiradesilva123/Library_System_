@@ -1,0 +1,17 @@
+#button{
+    -fx-background-color: #03A9F4;
+    -fx-text-fill: white;
+}
+
+#button:hover{
+    -fx-background-color: #1A237E;
+}
+
+.bablu{
+    -fx-background-color: #03A9F4;
+    -fx-text-fill: white;
+}
+
+.bablu:hover{
+    -fx-background-color: #1A237E;
+}

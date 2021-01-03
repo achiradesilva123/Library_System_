@@ -1,0 +1,76 @@
+*{
+  -fx-primary :#2D364C;
+  -fx-secondary :#0CB754;
+  -fx-primarytext : white;
+}
+.root{
+    -fx-background-color: -fx-primary;
+
+
+}
+.txt{
+    -fx-prompt-text-fill:#FFFF8D;
+    -fx-background-color: -fx-primary ;
+    -fx-border-color:-fx-secondary;
+    -fx-text-fill: white ;
+    -fx-text-inner-color :White
+}
+
+.glyph-icon{
+    -fx-fill: #AAAAAA;
+}
+
+.button{
+    -fx-text-fill:-fx-primarytext;
+    -fx-background-color: -fx-primary;
+    -fx-border-color:-fx-secondary;
+    
+}
+.button:hover{
+    -fx-background-color: #1F6F4F;
+}
+.login-button{
+    -fx-border-color:-fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.List-View{
+    -fx-background-color: -fx-primary;
+    -fx-text-fill:white;
+    -fx-text-inner-color :White
+}
+.login-button:hover{
+   -fx-background-color: #1F6F4F;
+}
+
+.wrongdata{
+    -jfx-unfocus-color:#D7130E;
+}
+
+.tab{
+    -fx-pref-height: 50;
+    -fx-pref-width: 310;
+    -fx-background-color:-fx-primary;
+}
+.tab-header-background{
+    -fx-background-color:-fx-primary ;
+}
+.menu-bar{
+    -fx-base:-fx-primary;
+    -fx-background-color: -fx-primary;
+}
+
+.context-menu{
+    -fx-background-color: derive(-fx-primary,10%);
+}
+
+.jfx-hamburger-icon{
+    -fx-spacing: 3;
+
+
+}
+.jfx-hamburger-icon StackPane{
+    -fx-background-color:-fx-secondary ;
+    -fx-border-radius: 3px;
+}

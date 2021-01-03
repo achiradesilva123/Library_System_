@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/company/LS/Assests/lib/commons-codec-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/company/LS/Assests/lib/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/company/LS/Assests/lib/derbyclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/company/LS/Assests/lib/fontawesomefx-commons-8.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/company/LS/Assests/lib/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/company/LS/Assests/lib/jfoenix.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>

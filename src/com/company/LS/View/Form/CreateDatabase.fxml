@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="248.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.LS.Controller.DataBaseController">
+   <children>
+      <VBox layoutY="56.0" prefHeight="206.0" prefWidth="321.0">
+         <children>
+            <JFXTextField fx:id="DbName" labelFloat="true" prefHeight="33.0" prefWidth="321.0" promptText="Data Base name">
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXPasswordField labelFloat="true" promptText="Serever Password">
+               <VBox.margin>
+                  <Insets bottom="60.0" left="20.0" right="20.0" top="30.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <HBox prefHeight="70.0" prefWidth="321.0">
+               <children>
+                  <JFXButton fx:id="btCancel" prefHeight="46.0" prefWidth="300.0" style="-fx-background-color: green;" text="Cancel" />
+                  <JFXButton fx:id="btCreate" onAction="#CreateDb" prefHeight="46.0" prefWidth="300.0" text="Create" />
+               </children>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets left="20.0" />
+         </opaqueInsets>
+      </VBox>
+      <HBox prefHeight="47.0" prefWidth="321.0" />
+   </children>
+</AnchorPane>
